@@ -9,15 +9,15 @@ To write a program to predict the marks scored by a student using the simple lin
 
 ## Algorithm
 
-1. Import required libraries for data handling and model building.
-  
-2. Load the dataset and separate input (hours) and output (marks).
+1. Import required libraries and initialize input (X) and output (Y) data.
+
+2. Create and train the Linear Regression model using model.fit(X, Y).
+
+3. Find slope and intercept of the regression line.
  
-3. Split the data into training and testing sets.
- 
-4. Train the linear regression model using training data.
- 
-5. Predict and evaluate the marks using the trained model. 
+4. Get user input and predict the marks using the trained model.
+
+5. Plot the actual data and regression line using a graph. 
 
 ## Program:
 ```
